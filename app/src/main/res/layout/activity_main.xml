@@ -27,14 +27,20 @@
 
         </android.support.design.widget.AppBarLayout>
 
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/recyclerView"
+        <android.support.v4.widget.NestedScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/fragmentContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </FrameLayout>
+
+        </android.support.v4.widget.NestedScrollView>
     </android.support.design.widget.CoordinatorLayout>
 
-    <android.support.design.widget.NavigationView
+    <com.gojek.blrdroidandroidcomponents.CustomNavigationView
         android:id="@+id/navigationView"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
