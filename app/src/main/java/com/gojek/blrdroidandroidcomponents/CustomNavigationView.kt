@@ -47,6 +47,11 @@ class CustomNavigationView : NavigationView, NavigationView.OnNavigationItemSele
                 drawerLayout.closeDrawer(Gravity.START)
                 return true
             }
+            R.id.nav_settings -> {
+                Log.d(ContentValues.TAG, "nav_settings")
+                drawerLayout.closeDrawer(Gravity.START)
+                return true
+            }
             else -> {
                 return false
             }
