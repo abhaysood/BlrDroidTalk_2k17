@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">BlrDroidAndroidComponents</string>
+    <string name="nav_notes">Notes</string>
+    <string name="nave_reminders">Reminders</string>
+    <string name="nav_other">Other</string>
+    <string name="nav_archive">Archive</string>
+    <string name="nav_trash">Trash</string>
 </resources>
